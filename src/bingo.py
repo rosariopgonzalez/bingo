@@ -7,3 +7,4 @@ def carton():
     return carton
 
 #cada 1 representa una celda ocupada y cada 0 una celda vacia
+#ejemplo de carton
