@@ -1,5 +1,6 @@
 from src.bingo import carton
 
+#cuenta la cantidad de celdas ocupadas en el carton
 def test_contar_celdas_ocupadas():
     mi_carton = carton()
     contador = 0
