@@ -1,5 +1,6 @@
 from src.bingo import carton
 
+#cuenta la cantidad de celdas ocupadas en el carton
 def test_contar_celdas_ocupadas():
     mi_carton = carton()
     contador = 0
@@ -25,6 +26,7 @@ def test_no_mas_que_quince():
             contador = contador + celda
     assert contador < 16
 
+#controla que haya al menos una celda ocupada en cada columna
 def test_min_una_celda_ocupada():
     mi_carton = carton()
     contador = 0
