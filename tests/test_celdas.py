@@ -9,7 +9,6 @@ def test_contar_celdas_ocupadas():
             contador = contador + celda
     assert contador == 15
     
-
 def test_no_menos_que_quince():
     mi_carton = carton()
     contador = 0
