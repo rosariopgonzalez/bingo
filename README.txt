@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/rosariopgonzalez/bingo.svg?branch=master)](https://travis-ci.org/rosariopgonzalez/bingo)
+
 ### Proyecto para Adaptación del Ambiente de Trabajo, Instituto Politécnico Superior. 
 
 # BINGO
