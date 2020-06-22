@@ -12,7 +12,7 @@ def cantidad_celdas_ocupadas(mi_carton):
 def cantidad_celdas_ocupadas_en_fila(mi_fila):
     contador = 0
     for celda in mi_fila:
-        if celda > 0:
+        if celda != 0:
             contador += 1
     return contador
 
@@ -128,10 +128,10 @@ def celdas_ocupadas_consecutivas(mi_carton):
 def rangos_columnas(mi_carton):
     min_rango = 1
     max_rango = 9
-    for columna in mi_carton:
-        for fila in mi_carton:
-            if celda[f][c] != 0:
-                if celda[f][c] >= min_rango and celda[f][c] <= max_rango:
+    for c in range (9):
+        for f in range (3):
+            if mi_carton[f][c] != 0:
+                if mi_carton[f][c] >= min_rango and mi_carton[f][c] <= max_rango:
                     return True
         min_rango = max_rango + 1
         max_rango = max_rango + 10
