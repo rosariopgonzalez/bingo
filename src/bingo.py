@@ -42,6 +42,8 @@ def sin_filas_vacias(mi_carton):
             sum += celda
         if sum == 0:
             return False
+        else: 
+            return True
     return True
 
 # Si hay numeros repetidos retorna False. Caso contrario, True.
@@ -49,6 +51,8 @@ def sin_repetidos(mi_carton):
     aux = mi_carton[0] + mi_carton[1] + mi_carton[2]
     if len(set(aux)) != 16:
         return False
+    else: 
+        return True
     return True
 
 # Si algun numero esta fuera del rango 1-90 retorna False, si no, True.
@@ -57,6 +61,8 @@ def numeros_1_a_90(mi_carton):
         for celda in fila:
             if not(celda >= 0 and celda <= 90):
                 return False
+            else: 
+                return True
     return True
 
 # Si los numeros se encuentran en orden creciente hacia abajo en una columna, retorna True; si no, False.
