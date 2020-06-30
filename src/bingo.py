@@ -32,6 +32,8 @@ def sin_columnas_vacias(mi_carton):
     for columna in range(9):
         if not(mi_carton[0][columna] or mi_carton[1][columna] or mi_carton[2][columna]):
             return False
+        else:
+            return True
     return True
 
 # Si hay alguna fila vacia retorna False, si no True.
@@ -91,6 +93,8 @@ def crecen_hacia_derecha(mi_carton):
             if mi_carton[fila][columna] != 0:
                 if not(x <= mi_carton[fila][columna] <= y):
                     return False
+                else:
+                    return True
         x += 10
         y += 10
         if y == 89:
