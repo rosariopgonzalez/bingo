@@ -218,3 +218,20 @@ def generar_carton():
 carton = generar_carton()
 for fila in carton:
     print(fila)
+
+def carton_false1():
+    carton = (
+        (0,3,0,5,5,5,0,4,91),
+        (1,2,0,0,6,8,7,0,0),
+        (3,1,0,14,0,16,0,17,0),
+        (0,0,0,0,0,0,0,0,0)
+    )
+    return carton
+
+def carton_false2(): 
+    carton = (
+        (0,3,0,5,5,5,0,4,91),
+        (1,2,0,0,0,0,0,0,0,0),
+        (0,0,0,0,0,0,0,0,0)
+    )
+    return carton
