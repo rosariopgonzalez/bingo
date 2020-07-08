@@ -107,10 +107,8 @@ def celdas_vacias_consecutivas(mi_carton):
                 contador = 0
             else:
                 contador += 1
-            if contador > 2:
+            if contador == 3:
                 return False
-            else:
-                return True
     return True
 
 
@@ -123,10 +121,8 @@ def celdas_ocupadas_consecutivas(mi_carton):
                 contador = 0
             else:
                 contador += 1
-            if contador > 2:
+            if contador == 3:
                 return False
-            else:
-                return True
     return True
 
 def rangos_columnas(mi_carton):
