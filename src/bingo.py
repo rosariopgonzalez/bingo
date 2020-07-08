@@ -211,6 +211,8 @@ def generar_carton():
         and sin_repetidos(carton)
         and rangos_columnas(carton)
         and sin_columnas_completas(carton)
+        and celdas_ocupadas_consecutivas(carton)
+        and celdas_vacias_consecutivas(carton)
         and cantidad_columnas_una_celda_ocupada(carton) == 3):
             break
     return carton
