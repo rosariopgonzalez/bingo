@@ -12,10 +12,10 @@ def test_cantidad_columnas_una_celda_ocupada():
     assert bingo.cantidad_columnas_una_celda_ocupada(carton_false) != 3
 
 def test_celdas_ocupadas_consecutivas():
-    assert  bingo.celdas_ocupadas_consecutivas(carton_false) 
+    assert bingo.celdas_ocupadas_consecutivas(carton_false) 
 
 def test_celdas_vacias_consecutivas():
-    assert  bingo.celdas_vacias_consecutivas(carton_false)
+    assert bingo.celdas_vacias_consecutivas(carton_false)
 
 def test_rangos_columnas():
     assert  bingo.rangos_columnas(carton_false)
